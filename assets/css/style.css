@@ -591,9 +591,11 @@ main .btn-send:hover {
 }
 /* MAIN */
 /* CONTENT */
-
-
-
+.government-logo {
+	width: 100px; /* Adjust the width as needed */
+	height: auto;
+margin-left: 60px; 
+margin-top: 10px; }
 
 
 
@@ -610,5 +612,5 @@ main .btn-send:hover {
 }
 
 .accordion-button {
-	height: 100px; /* Set a fixed height for all accordion items */
+	height: 120px; /* Set a fixed height for all accordion items */
 }
