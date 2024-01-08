@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <!-- Add jQuery library -->
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
@@ -146,37 +148,271 @@
 								<div class="accordion-item mb-3">
 									<h2 class="accordion-header" id="section1Heading">
 										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#section1Collapse1" aria-expanded="false" aria-controls="section1Collapse1">
-											Section 1
+											Children of residents in close proximity to the school
 										</button>
 									</h2>
 									<div id="section1Collapse1" class="accordion-collapse collapse " aria-labelledby="section1Heading" data-bs-parent="#salesAccordion1">
 										<div class="accordion-body">
-											Content for Section 1 goes here.
+											<table class="table">
+												<thead>
+													<tr>
+														<th>Name with initials</th>
+														<th>Gender</th>
+														<th>Medium</th>
+														<th>DoB</th>
+														<th>Marks</th>
+														</tr>
+												</thead>
+												<tbody>  
+													<tr class="table-info">
+														<td>W.Nimal</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>20-02-2000</td>
+														<td>95</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>S.M.P Amali</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>12-06-2002</td>
+														<td>90</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>A. Suresh</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>22-11-2000</td>
+														<td>88</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>J.Kumara</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>20-02-2000</td>
+														<td>55</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>S.W Geetha</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>12-06-2002</td>
+														<td>48</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>G. Ruwan</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>22-11-2000</td>
+														<td>52</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>W.Amal</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>20-02-2000</td>
+														<td>38</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>R. Mala</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>12-06-2002</td>
+														<td>32</td>
+
+													</tr>
+													
+													
+													
+												</tbody>
+											</table>
+																			
 										</div>
 									</div>
 								</div>
 								<div class="accordion-item mb-3">
 									<h2 class="accordion-header" id="section2Heading">
 										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#section2Collapse1" aria-expanded="false" aria-controls="section2Collapse1">
-											Section 2
-										</button>
+											Children of Past Pupils										</button>
 									</h2>
 									<div id="section2Collapse1" class="accordion-collapse collapse " aria-labelledby="section2Heading" data-bs-parent="#salesAccordion1">
 										<div class="accordion-body">
-											Content for Section 2 goes here.
-										</div>
+											<table class="table">
+												<thead>
+													<tr>
+														<th>Name with initials</th>
+														<th>Gender</th>
+														<th>Medium</th>
+														<th>DoB</th>
+														<th>Marks</th>
+														</tr>
+												</thead>
+												<tbody>  
+													<tr class="table-info">
+														<td>M. Nalindu</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>15-02-2000</td>
+														<td>92</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>M.S.G Harini</td>
+														<td>Female</td>
+														<td>Sinhala</td>
+														<td>04-04-2001</td>
+														<td>89</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>M. Naveen</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>22-01-2002</td>
+														<td>90</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>G.G Chamith</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>20-02-1999</td>
+														<td>54</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>L.K Lahiruni</td>
+														<td>Female</td>
+														<td>Sinhala</td>
+														<td>26-04-2002</td>
+														<td>45</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>G. Ruwan</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>22-11-1999</td>
+														<td>30</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>K.G Kamesh</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>15-02-2001</td>
+														<td>20</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>D.S.G Raini</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>02-06-2003</td>
+														<td>35</td>
+
+													</tr>
+													
+													
+													
+												</tbody>
+											</table>										</div>
 									</div>
 								</div>
 								<div class="accordion-item mb-3">
 									<h2 class="accordion-header" id="section3Heading">
 										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#section3Collapse1" aria-expanded="false" aria-controls="section2Collapse1">
-											Section 3
-										</button>
+											Brothers/ sisters of students studying in the school at present										</button>
 									</h2>
 									<div id="section3Collapse1" class="accordion-collapse collapse " aria-labelledby="section3Heading" data-bs-parent="#salesAccordion1">
 										<div class="accordion-body">
-											Content for Section 3 goes here.
-										</div>
+											<table class="table">
+												<thead>
+													<tr>
+														<th>Name with initials</th>
+														<th>Gender</th>
+														<th>Medium</th>
+														<th>DoB</th>
+														<th>Marks</th>
+														</tr>
+												</thead>
+												<tbody>  
+													<tr class="table-info">
+														<td>H.S.H Kumara</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>10-02-1997</td>
+														<td>88</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>G.I Savishka</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>05-06-1999</td>
+														<td>90</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>K.G Amanda</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>05-11-2000</td>
+														<td>90</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>J.S.G Kalum</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>20-02-2001</td>
+														<td>56</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>S.W Geetha</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>12-06-2002</td>
+														<td>48</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>G. Gayan</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>22-11-2000</td>
+														<td>50</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>W.F.H Ayesh</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>20-02-2001</td>
+														<td>36</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>R. Rani</td>
+														<td>Female</td>
+														<td>Sinhala</td>
+														<td>12-06-2002</td>
+														<td>30</td>
+
+													</tr>
+													
+													
+													
+												</tbody>
+											</table>										</div>
 									</div>
 								</div>							
 							</div>
@@ -187,37 +423,273 @@
 								<div class="accordion-item mb-3">
 									<h2 class="accordion-header" id="sectio4nHeading">
 										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#section4Collapse2" aria-expanded="false" aria-controls="section4Collapse2">
-											Section 4
-										</button>
+											Children of persons belonging to the staff in an institution directly involved in 
+											government school education under the Ministry of Education										</button>
 									</h2>
 									<div id="section4Collapse2" class="accordion-collapse collapse " aria-labelledby="section4Heading" data-bs-parent="#salesAccordion2">
 										<div class="accordion-body">
-											Content for Section 4 goes here.
-										</div>
+											<table class="table">
+												<thead>
+													<tr>
+														<th>Name with initials</th>
+														<th>Gender</th>
+														<th>Medium</th>
+														<th>DoB</th>
+														<th>Marks</th>
+														</tr>
+												</thead>
+												<tbody>  
+													<tr class="table-info">
+														<td>W.G Nimal Gayan</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>20-05-2001</td>
+														<td>96</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>S.M.P Amali</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>12-06-2002</td>
+														<td>92</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>A. Suresh Gamage</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>22-11-2000</td>
+														<td>88</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>A.S.G Roshan</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>04-02-1998</td>
+														<td>87</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>S.W Geetha Kumari</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>12-06-2002</td>
+														<td>54</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>G. Ruwan Chamara</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>22-11-2000</td>
+														<td>55</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>W.K Naleen</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>20-02-2000</td>
+														<td>52</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>R.J Rajani</td>
+														<td>Female</td>
+														<td>Sinhala</td>
+														<td>12-06-2000</td>
+														<td>30</td>
+
+													</tr>
+													
+													
+													
+												</tbody>
+											</table>										</div>
 									</div>
 								</div>
 								<div class="accordion-item mb-3">
 									<h2 class="accordion-header" id="sectio5nHeading">
 										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#section5Collapse2" aria-expanded="false" aria-controls="section3Collapse2">
-											Section 5
+											Children of officers transferred on exigency of government service/on annual 
+											transfers
 										</button>
 									</h2>
 									<div id="section5Collapse2" class="accordion-collapse collapse " aria-labelledby="section5Heading" data-bs-parent="#salesAccordion2">
 										<div class="accordion-body">
-											Content for Section 5 goes here.
-										</div>
+											<table class="table">
+												<thead>
+													<tr>
+														<th>Name with initials</th>
+														<th>Gender</th>
+														<th>Medium</th>
+														<th>DoB</th>
+														<th>Marks</th>
+														</tr>
+												</thead>
+												<tbody>  
+													<tr class="table-info">
+														<td>W.M Sriyan</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>05-02-2001</td>
+														<td>95</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>S.M.L.M Ishani</td>
+														<td>Female</td>
+														<td>Sinhala</td>
+														<td>12-06-2002</td>
+														<td>89</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>K.L.A Sampath </td>
+														<td>Male</td>
+														<td>English</td>
+														<td>02-11-1999</td>
+														<td>87</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>J.S.K Chamindu</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>20-02-2000</td>
+														<td>52</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>S.W Geetha Rajapaksha</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>12-06-2002</td>
+														<td>25</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>G.G.G Kalum</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>22-11-2000</td>
+														<td>20</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>W.Amal</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>20-05-2000</td>
+														<td>28</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>D.D Thushari</td>
+														<td>Female</td>
+														<td>Sinhala</td>
+														<td>12-05-2002</td>
+														<td>27</td>
+
+													</tr>
+													
+													
+													
+												</tbody>
+											</table>
+																				</div>
 									</div>
 								</div>
 								<div class="accordion-item mb-3">
 									<h2 class="accordion-header" id="sectio6nHeading">
 										<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#section6Collapse2" aria-expanded="false" aria-controls="section3Collapse2">
-											Section 6
+											Children of persons arriving after living abroad with the child
 										</button>
 									</h2>
 									<div id="section6Collapse2" class="accordion-collapse collapse " aria-labelledby="section6Heading" data-bs-parent="#salesAccordion2">
 										<div class="accordion-body">
-											Content for Section 6 goes here.
-										</div>
+											<table class="table">
+												<thead>
+													<tr>
+														<th>Name with initials</th>
+														<th>Gender</th>
+														<th>Medium</th>
+														<th>DoB</th>
+														<th>Marks</th>
+														</tr>
+												</thead>
+												<tbody>  
+													<tr class="table-info">
+														<td>W.Sunil</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>20-02-2000</td>
+														<td>95</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>S.M.J Krishani</td>
+														<td>Female</td>
+														<td>Sinhala</td>
+														<td>12-06-1998</td>
+														<td>90</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>A.K Yomindu</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>22-11-2000</td>
+														<td>88</td>
+
+													</tr>
+													<tr class="table-info">
+														<td>J.D.K Pranith</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>15-02-1999</td>
+														<td>89</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>S.W Geetha Shanthi</td>
+														<td>Female</td>
+														<td>Sinhala</td>
+														<td>12-06-2000</td>
+														<td>45</td>
+
+													</tr>
+													<tr class="table-warning">
+														<td>G.G.H Isuru</td>
+														<td>Male</td>
+														<td>Sinhala</td>
+														<td>22-11-2000</td>
+														<td>50</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>W.Sajith Rajapaksha</td>
+														<td>Male</td>
+														<td>English</td>
+														<td>20-02-1998</td>
+														<td>25</td>
+
+													</tr>
+													<tr class="table-danger">
+														<td>S.A Kalani</td>
+														<td>Female</td>
+														<td>English</td>
+														<td>12-06-2002</td>
+														<td>29</td>
+
+													</tr>
+													
+													
+													
+												</tbody>
+											</table>										</div>
 									</div>
 								</div>
 							</div>
